@@ -1,0 +1,198 @@
+
+----------------------------
+A .pkt fájlt mentse el: sajatnev.pkt néven!
+----------------------------
+1. feladat (1 pont)
+A rajz alapján helyezd el:
+    Wireless Router0, 
+    Wireless Router1, 
+    Wireless Router2
+----------------------------
+2. feladat (1 pont)
+A rajz alapján helyezd el:
+    PC0, PC1, PC2, PC3, PC4, Laptop0
+----------------------------
+3. feladat (1 pont)
+A rajz alapján helyezd el:
+    Server0, Server1, Printer1, Switch0
+----------------------------
+!!! A .pkt fájlt mentse el!
+----------------------------
+4. feladat (1 pont)
+Létesíts kapcsolatot a megfelelő vezetékkel:
+    PC0 - Wireless Router1
+    PC1 - Wireless Router1
+között
+----------------------------
+5. feladat (1 pont)
+Létesíts kapcsolatot a megfelelő vezetékkel:
+    PC2 - Wireless Router2
+    PC3 - Wireless Router2
+között
+----------------------------
+6. feladat (1 pont)
+A Switch0-n tedd lehetővé, hogy legalább 5 ethernet porttal rendelkezzen.
+----------------------------
+7. feladat (1 pont)
+Létesíts kapcsolatot a megfelelő vezetékkel:
+    Server0  - Switch0
+    Printer0 - Switch0
+----------------------------
+8. feladat (1 pont)
+Létesíts kapcsolatot a megfelelő vezetékkel:
+    Switch0 - Wireless Router1
+    Switch0 - Wireless Router2
+között.
+----------------------------
+9. feladat (1 pont)
+Létesíts kapcsolatot a megfelelő vezetékkel:
+    Server1 - Wireless Router0
+    Switch0 - Wireless Router0
+    PC4 - Switch0 konzol kábel
+----------------------------
+!!! A .pkt fájlt mentse el!!!
+-----------------------------
+10. feladat (1 pont)
+A Wireless Router0 routeren állítsd be: 
+	r0-wan: 10.0.40.1 statikus IP cím
+	r0-lan: 10.0.30.1 statikus IP cím
+----------------------------- 
+11. feladat (1 pont)
+A Wireless Router1 routeren állítsd be :
+	r1-wan: 10.0.30.10 statikus IP cím
+	r1-lan: 10.0.10.1  statikus IP cím
+-----------------------------
+12. feladat (1 pont)
+Állapítsd meg az Wireless Router1 wan lábához milyen átjáró címet kell adni.
+Állítsd be ezt az átjáró címet
+-----------------------------------
+13. feladat (1 pont)
+A Wireless Router2 routeren állítsd be:
+	r2-wan: 10.0.30.20 statikus IP cím
+	r2-lan: 10.0.20.1 statikus IP cím
+-----------------------------------
+14. feladat (1 pont)
+Állapítsd meg a Wireless Router2 wan lábához milyen átjáró címet kell adni.
+Állítsd be ezt az átjáró címe
+------------------------------------
+!!! A .pkt fájlt mentse el!!!
+------------------------------------
+15. feladat ( 1 pont)
+Állapítsd meg PC0 MAC címét.
+Állíts dhcp reservation módot a Wireless Router1-en:
+(A dhcp szerver ehhez a MAC címhez mindig ezt az IP címet fogja rendelni)
+	PC0 MAC cím - 10.0.10.2 IP cím 
+------------------------------------
+16. feladat ( 1 pont)
+Állítsd be:
+    A PC0: dhcp-client mód.
+    A PC1: dhcp-client mód.
+------------------------------------
+17. feladat ( 1 pont)
+Állítsd be:
+    A PC2: dhcp-client mód.
+    A PC3: dhcp-client mód.
+------------------------------------
+18. feladat ( 1 pont)
+Állítsd be a Wireless Router1 wifi adatait:
+    ssid: wifi1
+    jelszó: 12345678
+    azonosítási módszer: WPA2-PSK
+    titkosítás: AES
+--------------------------------------
+19. feladat ( 1 pont)
+Állítsd be a Laptop0 wifi adatait:
+    ssid: wifi1
+    jelszó: 12345678
+    azonosítási módszer: WPA2-PSK
+    titkosítás: AES
+--------------------------------------
+!!! A .pkt fájlt mentse el!!!
+--------------------------------------
+20. feladat ( 2 pont)
+A Server0 hálózati adatait állítsd be:
+    IP cím: 10.0.30.100
+    netmask:	határozd meg és ez alapján állítsd be
+    átjáró:		határozd meg és ez alapján állítsd be
+    dns szerver: 10.0.40.100
+-------------------------------------------------
+21. feladat ( 2 pont)
+A Printer0 hálózati adatait állítsd be:
+    IP cím: 10.0.30.200
+    netmask:	határozd meg és ez alapján állítsd be
+    átjáró:		határozd meg és ez alapján állítsd be
+    dns szerver: 10.0.40.100
+-------------------------------------------------
+22. feladat ( 2 pont)
+A Server1 hálózati adatait állítsd be:
+    IP cím: 10.0.40.100
+    netmask:	határozd meg és ez alapján állítsd be
+    dns szerver: 8.8.8.8
+-------------------------------------------------
+!!! A .pkt fájlt mentse el!!!
+--------------------------------------
+23. feladat ( 2 pont)
+Lépj be a PC1 Command Promptba.
+Add ki az ipconfig parancsot.
+Állapítsd meg, hogy megfelelőek-e a kapott adatok.
+például:
+    IPv4 Address: 10.0.10.x
+    Subnet Mask: 255.255.255.0
+    Default Gateway: 10.0.10.1
+
+A Command Promptban megjelenő szöveget másold be a ipconfig-pc1.txt fájlba.
+--------------------------------------------------
+24. feladat ( 2 pont)
+Lépj be a PC0 Command Promptba.
+Add ki az ipconfig parancsot.
+Állapítsd meg, hogy megfelelőek-e a kapott adatok.
+például:
+    IPv4 Address: 10.0.10.2
+    Subnet Mask: 255.255.255.0
+    Default Gateway: 10.0.10.1
+
+A Command Promptban megjelenő szöveget másold be a ipconfig-pc0.txt fájlba.
+--------------------------------------------------
+25. feladat ( 2 pont)
+Lépj be a Laptop0 Command Promptba.
+Add ki az ipconfig parancsot.
+Állapítsd meg, hogy megfelelőek-e a kapott adatok.
+például:
+    IPv4 Address: 10.0.10.x
+    Subnet Mask: 255.255.255.0
+    Default Gateway: 10.0.10.1
+
+A Command Promptban megjelenő szöveget másold be a ipconfig-laptop0.txt fájlba.
+--------------------------------------------------
+26. feladat ( 2 pont)
+    Lépj be a PC2 Command Promptba.
+    Add ki a ping 10.0.30.100 parancsot. (Server0)
+    Állapítsd meg, hogy megfelelőek-e a kapott adatok.
+A Command Promptban megjelenő szöveget másold be a ping-pc2-server0.txt fájlba.
+--------------------------------------------------
+28. feladat ( 2 pont)
+Lépj be a PC2 Command Promptba.
+Add ki a ping 10.0.30.200 parancsot. (Printer0)
+Állapítsd meg, hogy megfelelőek-e a kapott adatok.
+A Command Promptban megjelenő szöveget másold be a ping-pc2-printer0.txt fájlba
+--------------------------------------------------
+29. feladat ( 2 pont)
+Lépj be a PC2 Command Promptba.
+Add ki a ping 10.0.30.1 parancsot. (Wireless Router0 LAN)
+Állapítsd meg, hogy megfelelőek-e a kapott adatok.
+
+Add ki a ping 10.0.40.1 parancsot. (Wireless Router0 WAN)
+Állapítsd meg, hogy megfelelőek-e a kapott adatok.
+
+A Command Promptban megjelenő szöveget másold be a ping-pc2-r0.txt fájlba.
+--------------------------------------------------
+30. feladat ( 2 pont)
+Lépj be a PC2 Command Promptba.
+Add ki a ping 10.0.40.100 parancsot. (Server1)
+Állapítsd meg, hogy megfelelőek-e a kapott adatok.
+
+A Command Promptban megjelenő szöveget másold be a ping-pc2-server1.txt fájlba.
+
+--------------------------------------------------
+
+## A .pkt fájlt mentse el (sajatnev.pkt)!
